@@ -105,3 +105,42 @@
   font-weight: bold;
   font-size: 18px;
 }
+
+/*Aquí empiezan las media queries para tablet*/
+
+@media (min-width: 768px) {
+  .main {
+    padding-left: 37px;
+  }
+  .purchase__article {
+    padding-left: 37px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25px 25px 25px 25px;
+    height: 322px;
+  }
+  .purchase__title {
+    grid-column: span 4;
+    grid-row: 1;
+  }
+  .purchase__article--one {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 36px;
+  }
+  .purchase__article--two {
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 20px;
+  }
+  .purchase__article--three {
+    grid-column: 3;
+    grid-row: 2;
+    padding-left: 20px;
+  }
+  .buttom_scroll {
+    grid-column: 2;
+    grid-row: 4;
+  }
+}

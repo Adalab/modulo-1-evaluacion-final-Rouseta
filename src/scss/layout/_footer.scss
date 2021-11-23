@@ -46,7 +46,30 @@ a {
   line-height: 60px;
   transform: translateY(-20px);
 }
+
 .copyright {
   margin-bottom: 45px;
   text-align: center;
+}
+
+/*Aquí empeizan las Media queries para tablet*/
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    padding-bottom: 45px;
+    padding-top: 45px;
+  }
+  .copyright {
+    order: 1;
+    width: 200px;
+    height: 25px;
+  }
+  .nav__services {
+    order: 2;
+  }
+  .nav__social {
+    order: 3;
+  }
+  .scroll {
+  }
 }
