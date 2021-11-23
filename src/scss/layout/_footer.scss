@@ -36,7 +36,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-
 .scroll {
   background-color: white;
   height: 45px;
@@ -58,6 +57,7 @@ a {
     flex-direction: row;
     padding-bottom: 45px;
     padding-top: 45px;
+    justify-content: space-between;
   }
   .copyright {
     order: 1;
@@ -71,5 +71,6 @@ a {
     order: 3;
   }
   .scroll {
+    transform: translate(360px, -110px);
   }
 }
