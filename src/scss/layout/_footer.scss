@@ -74,3 +74,14 @@ a {
     transform: translate(360px, -110px);
   }
 }
+/* media queries para desktop*/
+@media (min-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .scroll {
+    transform: translateX(-750 px);
+  }
+}
