@@ -1,0 +1,89 @@
+main {
+  padding-bottom: 60px;
+}
+.window {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-left: 15px;
+  padding-bottom: 45px;
+}
+.small {
+  color: #8ccbea;
+}
+.title_window {
+  font-size: 24px;
+  font-family: "RobotoSlab", sans-serif;
+}
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.buttom_go {
+  width: 76px;
+  height: 45px;
+  text-align: center;
+  line-height: 41px;
+  color: #f26002;
+  border: solid 2px #f26002;
+  border-radius: 22.5px;
+}
+.purchase__article {
+  padding-top: 30px;
+  padding-left: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 64px 64px 64px 64px 64px;
+  grid-gap: 5px;
+  background-color: #eff9ff;
+  margin-bottom: 60px;
+}
+.purchase__title {
+  grid-column: span 3;
+  grid-row: 1;
+}
+.purchase__article--one {
+  grid-column: 1;
+  grid-row: 2;
+  padding: 25px 70px 25px 70px;
+}
+
+.purchase__article--two {
+  grid-column: 1;
+  grid-row: 3;
+  padding: 25px 70px 25px 70px;
+}
+.purchase__article--three {
+  grid-column: 1;
+  grid-row: 4;
+  padding: 25px 70px 25px 70px;
+}
+.buttom_scroll {
+  margin-top: 60px;
+  margin-left: 5px;
+  width: 184px;
+  height: 45px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 22.5px;
+  background-color: #f26002;
+  color: white;
+  font-size: "Roboto", sans-serif;
+  font-weight: 400px;
+  grid-column: span 3;
+  grid-row: 5;
+}
+
+.content {
+  text-align: center;
+}
+.purchase__title--one {
+  text-align: center;
+}
+.purchase__title--two {
+  text-align: center;
+}
+.purchase__title--three {
+  text-align: center;
+}
