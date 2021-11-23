@@ -21,7 +21,7 @@
 .title {
   text-align: center;
   word-spacing: 100vw;
-  font-size: 42;
+  font-size: 42px;
   margin-bottom: 10px;
 }
 .paragraph {
@@ -48,4 +48,30 @@
   line-height: 47px;
   margin-top: 45px;
   margin-bottom: 53px;
+}
+/*media queries tablet*/
+
+@media (min-width: 768px) {
+  .icon {
+    margin-bottom: 100px;
+  }
+  .title {
+    font-size: 80px;
+  }
+  .paragraph {
+    font-size: 24px;
+  }
+}
+
+/*media queries para desktop*/
+@media (min-width: 1024px) {
+  .icon {
+    margin-bottom: 100px; /*corregir esta locura*/
+  }
+  .title {
+    font-size: 100px;
+  }
+  .paragraph {
+    font-size: 24px;
+  }
 }

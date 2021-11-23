@@ -145,3 +145,13 @@
     transform: translate(-15px, 30px);
   }
 }
+/*Aquí empiezan las media queries para Desktop*/
+@media (min-width: 1024px) {
+  .window {
+    margin: 90px 275px 60px 275px;
+  }
+  .buttom_scroll {
+    transform: translate(145px, 50px);
+    margin-bottom: 60px;
+  }
+}
