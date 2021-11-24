@@ -90,5 +90,15 @@
 
   .paragraph {
     font-size: 24px;
+    animation-duration: 3s;
+    animation-name: slideText;
+  }
+  @keyframes slideText {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
   }
 }
