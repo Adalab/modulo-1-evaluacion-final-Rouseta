@@ -79,9 +79,9 @@ a {
   .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .scroll {
-    transform: translate(820px, -110px);
+    transform: translate(420px, -110px);
   }
 }
