@@ -9,7 +9,6 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  font-family: "Roboto", sans-serif;
 }
 .hero {
   display: flex;
@@ -23,9 +22,13 @@
   word-spacing: 100vw;
   font-size: 42px;
   margin-bottom: 10px;
+  font-family: "RobotoSlab", sans-serif;
+  font-weight: bold;
 }
 .paragraph {
   transform: translate(20px, 10px);
+  font-family: "Roboto, sans-serif";
+  font-weight: lighter;
 }
 
 .menu {
@@ -68,9 +71,23 @@
   .icon {
     margin-bottom: 100px; /*corregir esta locura*/
   }
+  .header {
+    overflow: hidden;
+  }
   .title {
     font-size: 100px;
+    animation-duration: 3s;
+    animation-name: slideTitle;
   }
+  @keyframes slideTitle {
+    from {
+      margin-bottom: 100%;
+    }
+    to {
+      margin-top: -100%;
+    }
+  }
+
   .paragraph {
     font-size: 24px;
   }
