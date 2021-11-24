@@ -23,6 +23,10 @@ Esto ha sido una batalla sin fin. Cuando el tamaño de la pantalla era superior 
 
 Es como el traslador de Harry Potter, si estás en peligro ¿cómo no usarlo?
 
+### No he usado @@ parcializaciones
+
+Lo entendí en su momento, pero a la hora de ponerlo en práctica, tenía miedo de "descacharrar" lo que tenía hecho. Es algo que debo practicar.
+
 ## Conclusión
 
 Es un ejercicio en el que he puesto a prueba mis capacidades como maquetadora y con el que he visto lo mucho que he aprendido y lo mucho que me queda por aprender.
