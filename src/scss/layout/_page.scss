@@ -9,16 +9,16 @@
   color: #8ccbea;
   margin-left: 15px;
   margin-top: 30px;
-  font-family: "Roboto", "sans-serif";
+  font-family: $font-text1;
   font-size: 14px;
 }
 .title_window {
   font-size: 24px;
-  font-family: "RobotoSlab", sans-serif;
+  font-family: $font-title1;
   margin: 15px 15px 15px 15px;
 }
 .text {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-text1;
   font-size: 18px;
   margin-left: 15px;
   margin-bottom: 30px;
@@ -33,7 +33,7 @@
   border-radius: 22.5px;
   margin-left: 15px;
   margin-bottom: 45px;
-  font-family: "Roboto", "sans-serif";
+  font-family: $font-text1;
   font-weight: 600;
   transition: color 2s linear, background-color 1s linear;
   &:hover {
@@ -52,7 +52,7 @@
   grid-column: 1;
   grid-row: 1;
   text-align: center;
-  font-family: "RobotoSlab", "sans-serif";
+  font-family: $font-title1;
 }
 .purchase__article--one {
   grid-column: 1;
@@ -81,8 +81,8 @@
   font-size: "Roboto", "sans-serif";
   font-weight: 400px;
   grid-column: 1;
-  margin: 60px 68px 60px 68px;
-  font-family: "Roboto", "sans-serif";
+  margin: 60px 68px 60px 72px;
+  font-family: $font-text1;
   font-weight: 500;
   transition: color 2s linear, background-color 1s linear;
   &:hover {
@@ -94,25 +94,25 @@
 .content {
   text-align: center;
   line-height: 30px;
-  font-family: "Roboto", "sans-serif";
+  font-family: $font-text1;
   font-size: 18px;
 }
 
 .purchase__title--one {
   text-align: center;
-  font-family: "RobotoSlab", "sans-serif";
+  font-family: $font-title1;
   font-weight: bold;
   font-size: 18px;
 }
 .purchase__title--two {
   text-align: center;
-  font-family: "RobotoSlab", "sans-serif";
+  font-family: $font-title1;
   font-weight: bold;
   font-size: 18px;
 }
 .purchase__title--three {
   text-align: center;
-  font-family: "RobotoSlab", "sans-serif";
+  font-family: $font-title1;
   font-weight: bold;
   font-size: 18px;
 }
@@ -162,7 +162,7 @@
     margin: 90px 275px 60px 275px;
   }
   .buttom_scroll {
-    transform: translate(115px, 50px);
+    transform: translate(-5%, 50%);
     margin-bottom: 60px;
     width: 255px;
     font-size: 20px;
@@ -188,5 +188,11 @@
   }
   .small {
     font-size: 16px;
+  }
+}
+/*Aquí empiezan las media queries para Desktop*/
+@media (min-width: 1200px) {
+  .buttom_scroll {
+    transform: translate(40%, 50%);
   }
 }

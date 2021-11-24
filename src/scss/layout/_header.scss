@@ -22,12 +22,12 @@
   word-spacing: 100vw;
   font-size: 42px;
   margin-bottom: 10px;
-  font-family: "RobotoSlab", "sans-serif";
+  font-family: $font-title1;
   font-weight: bold;
 }
 .paragraph {
   transform: translate(20px, 10px);
-  font-family: "Roboto", "sans-serif";
+  font-family: $font-text1;
   font-weight: lighter;
 }
 
